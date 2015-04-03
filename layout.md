@@ -1,3 +1,2 @@
 ABSTRACT.tex
 INTRODUCTION.tex
-noStroke_var_draw_function_fill__.html
