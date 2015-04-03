@@ -1,0 +1,20 @@
+//noStroke();
+var draw = function() {
+    fill(mouseY-mouseX, mouseY, mouseX-mouseY);
+    rect(mouseX, mouseY, mouseY/15, mouseX/10);
+    //rotate(5);
+    
+    //Triangles
+    //Top Left
+    fill(mouseX, mouseX-mouseY, mouseY);
+    triangle(mouseX/2, mouseY/2, mouseY/15, mouseX/10, mouseX/50, mouseY/12);
+    //Top Right
+    fill(mouseX, mouseX-mouseY, mouseY);
+    triangle(400-mouseX/2, mouseY/2, 400-mouseY/15, mouseX/10, 400-mouseX/50, mouseY/12);
+    //Bottom Right
+    fill(mouseX, mouseY, mouseY-mouseX);
+    triangle(400-mouseX/2, 400-mouseY/2, 400-mouseY/15, 400-mouseX/10, 400-mouseX/50, 400-mouseY/12);
+    //Bottom Left
+    fill(mouseX, mouseY, mouseY-mouseX);
+    triangle(mouseX/2, 400-mouseY/2, mouseY/15, 400-mouseX/10, mouseX/50, 400-mouseY/12);
+};
