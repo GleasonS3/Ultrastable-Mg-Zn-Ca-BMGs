@@ -1,3 +1,2 @@
 ABSTRACT.tex
 INTRODUCTION.tex
-MgZnCa__.tex
