@@ -1,3 +1,2 @@
 ABSTRACT.tex
 INTRODUCTION.tex
-Test_Table_begin_tabular_r__.tex
