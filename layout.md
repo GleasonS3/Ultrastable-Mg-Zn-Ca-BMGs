@@ -1,4 +1,3 @@
 ABSTRACT.tex
 INTRODUCTION.tex
-figures/20140213_160435/20140213_160435.jpg
 begin_tabular_c_c_c__.tex
