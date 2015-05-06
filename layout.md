@@ -1,2 +1,2 @@
-abstract.tex.tex
+abstract.tex
 INTRODUCTION.tex
